@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link>
+      <router-link to="/catalog">目录进度条（自己实现的）</router-link>
       <router-link to="/select">下拉框封装</router-link>
     </div>
     <router-view/>
