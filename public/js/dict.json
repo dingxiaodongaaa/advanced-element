@@ -1,0 +1,857 @@
+{
+  "responseTime": "2020-03-17 11:55:07",
+  "sysCode": 200,
+  "sysMessage": null,
+  "message": "操作成功",
+  "code": 200,
+  "data": [
+    {
+      "id": 1,
+      "code": "01",
+      "name": "员工状态",
+      "parentId": 0,
+      "sequenceNo": 1,
+      "memo": ""
+    },
+    {
+      "id": 2,
+      "code": "0101",
+      "name": "试用",
+      "parentId": 1,
+      "sequenceNo": 2,
+      "memo": ""
+    },
+    {
+      "id": 3,
+      "code": "0102",
+      "name": "正式",
+      "parentId": 1,
+      "sequenceNo": 3,
+      "memo": ""
+    },
+    {
+      "id": 4,
+      "code": "02",
+      "name": "员工类型",
+      "parentId": 0,
+      "sequenceNo": 4,
+      "memo": ""
+    },
+    {
+      "id": 5,
+      "code": "0201",
+      "name": "全职",
+      "parentId": 4,
+      "sequenceNo": 5,
+      "memo": ""
+    },
+    {
+      "id": 6,
+      "code": "0202",
+      "name": "兼职",
+      "parentId": 4,
+      "sequenceNo": 6,
+      "memo": ""
+    },
+    {
+      "id": 7,
+      "code": "0203",
+      "name": "实习",
+      "parentId": 4,
+      "sequenceNo": 7,
+      "memo": ""
+    },
+    {
+      "id": 8,
+      "code": "0204",
+      "name": "劳务派遣",
+      "parentId": 4,
+      "sequenceNo": 8,
+      "memo": ""
+    },
+    {
+      "id": 9,
+      "code": "0205",
+      "name": "劳务外包",
+      "parentId": 4,
+      "sequenceNo": 9,
+      "memo": ""
+    },
+    {
+      "id": 10,
+      "code": "0206",
+      "name": "退休返聘",
+      "parentId": 4,
+      "sequenceNo": 10,
+      "memo": ""
+    },
+    {
+      "id": 11,
+      "code": "03",
+      "name": "试用期",
+      "parentId": 0,
+      "sequenceNo": 11,
+      "memo": ""
+    },
+    {
+      "id": 12,
+      "code": "0301",
+      "name": "1个月",
+      "parentId": 11,
+      "sequenceNo": 12,
+      "memo": ""
+    },
+    {
+      "id": 13,
+      "code": "0302",
+      "name": "2个月",
+      "parentId": 11,
+      "sequenceNo": 13,
+      "memo": ""
+    },
+    {
+      "id": 14,
+      "code": "0303",
+      "name": "3个月",
+      "parentId": 11,
+      "sequenceNo": 14,
+      "memo": ""
+    },
+    {
+      "id": 15,
+      "code": "0304",
+      "name": "4个月",
+      "parentId": 11,
+      "sequenceNo": 15,
+      "memo": ""
+    },
+    {
+      "id": 16,
+      "code": "0305",
+      "name": "5个月",
+      "parentId": 11,
+      "sequenceNo": 16,
+      "memo": ""
+    },
+    {
+      "id": 17,
+      "code": "0306",
+      "name": "6个月",
+      "parentId": 11,
+      "sequenceNo": 17,
+      "memo": ""
+    },
+    {
+      "id": 18,
+      "code": "0307",
+      "name": "其他",
+      "parentId": 11,
+      "sequenceNo": 18,
+      "memo": ""
+    },
+    {
+      "id": 19,
+      "code": "04",
+      "name": "部门",
+      "parentId": 0,
+      "sequenceNo": 19,
+      "memo": ""
+    },
+    {
+      "id": 20,
+      "code": "0401",
+      "name": "技术部",
+      "parentId": 19,
+      "sequenceNo": 20,
+      "memo": ""
+    },
+    {
+      "id": 21,
+      "code": "0402",
+      "name": "产品部",
+      "parentId": 19,
+      "sequenceNo": 21,
+      "memo": ""
+    },
+    {
+      "id": 22,
+      "code": "0403",
+      "name": "营销部",
+      "parentId": 19,
+      "sequenceNo": 22,
+      "memo": ""
+    },
+    {
+      "id": 23,
+      "code": "0404",
+      "name": "人事部",
+      "parentId": 19,
+      "sequenceNo": 23,
+      "memo": ""
+    },
+    {
+      "id": 24,
+      "code": "0405",
+      "name": "财务部",
+      "parentId": 19,
+      "sequenceNo": 24,
+      "memo": ""
+    },
+    {
+      "id": 25,
+      "code": "0406",
+      "name": "行政部",
+      "parentId": 19,
+      "sequenceNo": 25,
+      "memo": ""
+    },
+    {
+      "id": 26,
+      "code": "05",
+      "name": "性别",
+      "parentId": 0,
+      "sequenceNo": 19,
+      "memo": ""
+    },
+    {
+      "id": 27,
+      "code": "0501",
+      "name": "男",
+      "parentId": 26,
+      "sequenceNo": 27,
+      "memo": ""
+    },
+    {
+      "id": 28,
+      "code": "0502",
+      "name": "女",
+      "parentId": 26,
+      "sequenceNo": 28,
+      "memo": ""
+    },
+    {
+      "id": 29,
+      "code": "06",
+      "name": "婚姻状况",
+      "parentId": 0,
+      "sequenceNo": 29,
+      "memo": ""
+    },
+    {
+      "id": 30,
+      "code": "0601",
+      "name": "未婚",
+      "parentId": 29,
+      "sequenceNo": 30,
+      "memo": ""
+    },
+    {
+      "id": 31,
+      "code": "0602",
+      "name": "已婚",
+      "parentId": 29,
+      "sequenceNo": 31,
+      "memo": ""
+    },
+    {
+      "id": 32,
+      "code": "0603",
+      "name": "离异",
+      "parentId": 29,
+      "sequenceNo": 32,
+      "memo": ""
+    },
+    {
+      "id": 33,
+      "code": "0604",
+      "name": "丧偶",
+      "parentId": 29,
+      "sequenceNo": 33,
+      "memo": ""
+    },
+    {
+      "id": 34,
+      "code": "0605",
+      "name": "分居",
+      "parentId": 29,
+      "sequenceNo": 34,
+      "memo": ""
+    },
+    {
+      "id": 35,
+      "code": "07",
+      "name": "户籍类型",
+      "parentId": 0,
+      "sequenceNo": 35,
+      "memo": ""
+    },
+    {
+      "id": 36,
+      "code": "0701",
+      "name": "本地城镇",
+      "parentId": 35,
+      "sequenceNo": 36,
+      "memo": ""
+    },
+    {
+      "id": 37,
+      "code": "0702",
+      "name": "本地农村",
+      "parentId": 35,
+      "sequenceNo": 37,
+      "memo": ""
+    },
+    {
+      "id": 38,
+      "code": "0703",
+      "name": "外地城镇（本省）",
+      "parentId": 35,
+      "sequenceNo": 38,
+      "memo": ""
+    },
+    {
+      "id": 39,
+      "code": "0704",
+      "name": "外地农村（本省）",
+      "parentId": 35,
+      "sequenceNo": 39,
+      "memo": ""
+    },
+    {
+      "id": 40,
+      "code": "0705",
+      "name": "外地城镇（外省）",
+      "parentId": 35,
+      "sequenceNo": 40,
+      "memo": ""
+    },
+    {
+      "id": 41,
+      "code": "0706",
+      "name": "外地农村（外省）",
+      "parentId": 35,
+      "sequenceNo": 41,
+      "memo": ""
+    },
+    {
+      "id": 42,
+      "code": "08",
+      "name": "政治面貌",
+      "parentId": 0,
+      "sequenceNo": 42,
+      "memo": ""
+    },
+    {
+      "id": 43,
+      "code": "0801",
+      "name": "团员",
+      "parentId": 42,
+      "sequenceNo": 43,
+      "memo": ""
+    },
+    {
+      "id": 44,
+      "code": "0802",
+      "name": "党员",
+      "parentId": 42,
+      "sequenceNo": 44,
+      "memo": ""
+    },
+    {
+      "id": 45,
+      "code": "0803",
+      "name": "群众",
+      "parentId": 42,
+      "sequenceNo": 45,
+      "memo": ""
+    },
+    {
+      "id": 46,
+      "code": "0804",
+      "name": "其他",
+      "parentId": 42,
+      "sequenceNo": 45,
+      "memo": ""
+    },
+    {
+      "id": 47,
+      "code": "09",
+      "name": "学历信息",
+      "parentId": 0,
+      "sequenceNo": 47,
+      "memo": ""
+    },
+    {
+      "id": 48,
+      "code": "0901",
+      "name": "小学",
+      "parentId": 47,
+      "sequenceNo": 48,
+      "memo": ""
+    },
+    {
+      "id": 49,
+      "code": "0902",
+      "name": "初中",
+      "parentId": 47,
+      "sequenceNo": 49,
+      "memo": ""
+    },
+    {
+      "id": 50,
+      "code": "0903",
+      "name": "高中",
+      "parentId": 47,
+      "sequenceNo": 50,
+      "memo": ""
+    },
+    {
+      "id": 51,
+      "code": "0904",
+      "name": "中专",
+      "parentId": 47,
+      "sequenceNo": 51,
+      "memo": ""
+    },
+    {
+      "id": 52,
+      "code": "0905",
+      "name": "大专",
+      "parentId": 47,
+      "sequenceNo": 52,
+      "memo": ""
+    },
+    {
+      "id": 53,
+      "code": "0906",
+      "name": "本科",
+      "parentId": 47,
+      "sequenceNo": 53,
+      "memo": ""
+    },
+    {
+      "id": 54,
+      "code": "0907",
+      "name": "硕士",
+      "parentId": 47,
+      "sequenceNo": 54,
+      "memo": ""
+    },
+    {
+      "id": 55,
+      "code": "0908",
+      "name": "博士",
+      "parentId": 47,
+      "sequenceNo": 55,
+      "memo": ""
+    },
+    {
+      "id": 56,
+      "code": "0909",
+      "name": "其他",
+      "parentId": 47,
+      "sequenceNo": 56,
+      "memo": ""
+    },
+    {
+      "id": 57,
+      "code": "10",
+      "name": "联系人关系",
+      "parentId": 0,
+      "sequenceNo": 57,
+      "memo": ""
+    },
+    {
+      "id": 58,
+      "code": "1001",
+      "name": "父母",
+      "parentId": 57,
+      "sequenceNo": 58,
+      "memo": ""
+    },
+    {
+      "id": 59,
+      "code": "1002",
+      "name": "配偶",
+      "parentId": 57,
+      "sequenceNo": 59,
+      "memo": ""
+    },
+    {
+      "id": 60,
+      "code": "1003",
+      "name": "子女",
+      "parentId": 57,
+      "sequenceNo": 60,
+      "memo": ""
+    },
+    {
+      "id": 61,
+      "code": "1004",
+      "name": "其他",
+      "parentId": 57,
+      "sequenceNo": 61,
+      "memo": ""
+    },
+    {
+      "id": 62,
+      "code": "11",
+      "name": "关系（家人）",
+      "parentId": 0,
+      "sequenceNo": 62,
+      "memo": ""
+    },
+    {
+      "id": 63,
+      "code": "1101",
+      "name": "父母",
+      "parentId": 62,
+      "sequenceNo": 63,
+      "memo": ""
+    },
+    {
+      "id": 64,
+      "code": "1102",
+      "name": "配偶",
+      "parentId": 62,
+      "sequenceNo": 64,
+      "memo": ""
+    },
+    {
+      "id": 65,
+      "code": "1103",
+      "name": "子女",
+      "parentId": 62,
+      "sequenceNo": 65,
+      "memo": ""
+    },
+    {
+      "id": 66,
+      "code": "1104",
+      "name": "兄弟姐妹",
+      "parentId": 62,
+      "sequenceNo": 66,
+      "memo": ""
+    },
+    {
+      "id": 67,
+      "code": "1105",
+      "name": "祖/外祖父母",
+      "parentId": 62,
+      "sequenceNo": 67,
+      "memo": ""
+    },
+    {
+      "id": 68,
+      "code": "1106",
+      "name": "其他亲属",
+      "parentId": 62,
+      "sequenceNo": 68,
+      "memo": ""
+    },
+    {
+      "id": 69,
+      "code": "12",
+      "name": "主动原因",
+      "parentId": 0,
+      "sequenceNo": 69,
+      "memo": ""
+    },
+    {
+      "id": 70,
+      "code": "1201",
+      "name": "家庭原因",
+      "parentId": 69,
+      "sequenceNo": 70,
+      "memo": ""
+    },
+    {
+      "id": 71,
+      "code": "1202",
+      "name": "个人原因",
+      "parentId": 69,
+      "sequenceNo": 71,
+      "memo": ""
+    },
+    {
+      "id": 72,
+      "code": "1203",
+      "name": "发展原因",
+      "parentId": 69,
+      "sequenceNo": 72,
+      "memo": ""
+    },
+    {
+      "id": 73,
+      "code": "1204",
+      "name": "合同到期不续签",
+      "parentId": 69,
+      "sequenceNo": 73,
+      "memo": ""
+    },
+    {
+      "id": 74,
+      "code": "1205",
+      "name": "其他",
+      "parentId": 69,
+      "sequenceNo": 74,
+      "memo": ""
+    },
+    {
+      "id": 75,
+      "code": "13",
+      "name": "主动原因",
+      "parentId": 0,
+      "sequenceNo": 75,
+      "memo": ""
+    },
+    {
+      "id": 76,
+      "code": "1301",
+      "name": "协议解除",
+      "parentId": 75,
+      "sequenceNo": 76,
+      "memo": ""
+    },
+    {
+      "id": 77,
+      "code": "1302",
+      "name": "无法胜任工作",
+      "parentId": 75,
+      "sequenceNo": 77,
+      "memo": ""
+    },
+    {
+      "id": 78,
+      "code": "1303",
+      "name": "经济性裁员",
+      "parentId": 75,
+      "sequenceNo": 78,
+      "memo": ""
+    },
+    {
+      "id": 79,
+      "code": "1304",
+      "name": "严重违法违纪",
+      "parentId": 75,
+      "sequenceNo": 79,
+      "memo": ""
+    },
+    {
+      "id": 80,
+      "code": "1305",
+      "name": "其他",
+      "parentId": 75,
+      "sequenceNo": 80,
+      "memo": ""
+    },
+    {
+      "id": 81,
+      "code": "14",
+      "name": "合同状态",
+      "parentId": 0,
+      "sequenceNo": 81,
+      "memo": ""
+    },
+    {
+      "id": 82,
+      "code": "1401",
+      "name": "已到期",
+      "parentId": 81,
+      "sequenceNo": 82,
+      "memo": ""
+    },
+    {
+      "id": 83,
+      "code": "1402",
+      "name": "即将到期",
+      "parentId": 81,
+      "sequenceNo": 83,
+      "memo": ""
+    },
+    {
+      "id": 84,
+      "code": "1403",
+      "name": "进行中",
+      "parentId": 81,
+      "sequenceNo": 84,
+      "memo": ""
+    },
+    {
+      "id": 85,
+      "code": "1404",
+      "name": "已终止",
+      "parentId": 81,
+      "sequenceNo": 85,
+      "memo": ""
+    },
+    {
+      "id": 86,
+      "code": "15",
+      "name": "合同类型",
+      "parentId": 0,
+      "sequenceNo": 86,
+      "memo": ""
+    },
+    {
+      "id": 87,
+      "code": "1501",
+      "name": "劳动合同",
+      "parentId": 86,
+      "sequenceNo": 87,
+      "memo": ""
+    },
+    {
+      "id": 88,
+      "code": "1502",
+      "name": "固定期限劳动合同",
+      "parentId": 86,
+      "sequenceNo": 88,
+      "memo": ""
+    },
+    {
+      "id": 89,
+      "code": "1503",
+      "name": "无固定期限劳动合同",
+      "parentId": 86,
+      "sequenceNo": 89,
+      "memo": ""
+    },
+    {
+      "id": 90,
+      "code": "1504",
+      "name": "劳务派遣合同",
+      "parentId": 86,
+      "sequenceNo": 90,
+      "memo": ""
+    },
+    {
+      "id": 91,
+      "code": "1505",
+      "name": "返聘合同",
+      "parentId": 86,
+      "sequenceNo": 91,
+      "memo": ""
+    },
+    {
+      "id": 92,
+      "code": "1506",
+      "name": "实习合同",
+      "parentId": 86,
+      "sequenceNo": 92,
+      "memo": ""
+    },
+    {
+      "id": 93,
+      "code": "1507",
+      "name": "其他合同",
+      "parentId": 86,
+      "sequenceNo": 93,
+      "memo": ""
+    },
+    {
+      "id": 94,
+      "code": "1508",
+      "name": "试用协议",
+      "parentId": 86,
+      "sequenceNo": 94,
+      "memo": ""
+    },
+    {
+      "id": 95,
+      "code": "16",
+      "name": "到期提醒",
+      "parentId": 0,
+      "sequenceNo": 95,
+      "memo": ""
+    },
+    {
+      "id": 96,
+      "code": "1601",
+      "name": "提前1天",
+      "parentId": 95,
+      "sequenceNo": 96,
+      "memo": ""
+    },
+    {
+      "id": 97,
+      "code": "1602",
+      "name": "5天",
+      "parentId": 95,
+      "sequenceNo": 97,
+      "memo": ""
+    },
+    {
+      "id": 98,
+      "code": "1603",
+      "name": "10天",
+      "parentId": 95,
+      "sequenceNo": 98,
+      "memo": ""
+    },
+    {
+      "id": 99,
+      "code": "1604",
+      "name": "15天",
+      "parentId": 95,
+      "sequenceNo": 99,
+      "memo": ""
+    },
+    {
+      "id": 100,
+      "code": "1605",
+      "name": "一个月",
+      "parentId": 95,
+      "sequenceNo": 100,
+      "memo": ""
+    },
+    {
+      "id": 101,
+      "code": "17",
+      "name": "合同期限",
+      "parentId": 0,
+      "sequenceNo": 101,
+      "memo": ""
+    },
+    {
+      "id": 102,
+      "code": "1701",
+      "name": "无",
+      "parentId": 101,
+      "sequenceNo": 102,
+      "memo": ""
+    },
+    {
+      "id": 103,
+      "code": "1702",
+      "name": "6个月",
+      "parentId": 101,
+      "sequenceNo": 103,
+      "memo": ""
+    },
+    {
+      "id": 104,
+      "code": "1703",
+      "name": "12个月",
+      "parentId": 101,
+      "sequenceNo": 104,
+      "memo": ""
+    },
+    {
+      "id": 105,
+      "code": "1704",
+      "name": "24个月",
+      "parentId": 101,
+      "sequenceNo": 105,
+      "memo": ""
+    },
+    {
+      "id": 106,
+      "code": "1705",
+      "name": "36个月或以上",
+      "parentId": 101,
+      "sequenceNo": 106,
+      "memo": ""
+    }
+  ]
+}
