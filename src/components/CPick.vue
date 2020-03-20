@@ -1,6 +1,6 @@
 <template>
     <el-form-item :label="label">
-        <el-select @change="PickerChange" v-model="pickValue" :placeholder="placeholder" :readonly="readonly">
+        <el-select :size="size" :style="{width:width}" @change="PickerChange" v-model="pickValue" :placeholder="placeholder" :readonly="readonly">
             <el-option v-for="(item,index) in selectData" :key="index" :label="item.label" :value="item.value"></el-option>
         </el-select>
     </el-form-item>
@@ -42,6 +42,14 @@ export default {
             default:false,
             type:Boolean
         },
+        // 表单框宽度
+        width:{
+            default:"",
+        },
+        //size
+        size:{
+            default:""
+        }
     },
     computed:{
         selectData(){
@@ -49,6 +57,16 @@ export default {
                 return this.pickData;
             }else{
                 return this.nodePickData;
+            }
+        },
+        pickLabel(){
+            console.log(this.selectData)
+            if(this.selectData){
+                for(let item of this.selectData){
+                    if(item.value == this.pickValue){
+                        return item.label
+                    }
+                }
             }
         }
     },
@@ -64,7 +82,7 @@ export default {
     },
     methods:{
         PickerChange(){
-            this.$emit('change',this.pickValue);
+            this.$emit('change',this.pickValue,this.pickLabel);
         },
         getDictList(){
             axios.get('/js/dict.json').then(res=>{
